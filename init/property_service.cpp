@@ -1393,6 +1393,7 @@ static void SetSafetyNetProps() {
     InitPropertySet("vendor.boot.vbmeta.device_state", "locked");
     InitPropertySet("vendor.boot.verifiedbootstate", "green");
     InitPropertySet("oplusboot.verifiedbootstate", "green");
+    InitPropertySet("ro.product.first_api_level", "32");
 }
 
 void PropertyInit() {
